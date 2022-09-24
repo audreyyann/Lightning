@@ -25,9 +25,7 @@ void draw()
     stroke(250, 246, 145, 170);
     frameRate(45);
     endX = startX + ((int)(Math.random()*20) - 9);
-    System.out.println(endX);
     endY = startY + ((int)(Math.random()*10));
-    System.out.println(endY);
     line(startX, startY, endX, endY);
     startX = endX;
     startY = endY;
